@@ -1,0 +1,386 @@
+html,
+body{
+    height: 100%;
+}
+
+
+.address{
+    background-color: rgba(0, 0, 0, 0.575);
+    height: 50px;
+}
+
+.addres{
+    color: white;
+    padding-left: 60px;
+}
+.menu
+{
+	position: relative;
+	width: 100%;
+	background: rgba(255,255,255,.20);
+	padding:  45px;
+	box-sizing: border-box;
+	border-bottom: 1px solid rgba(0,0,0,.5);
+}
+.menu img
+{
+	float: left;
+	width: 204px
+}
+.nav-bar{
+  background-color: white;
+  height: 90px;
+  line-height: 70px;
+ 
+  }
+  
+  
+  nav{
+      float: right;
+  }
+  
+  nav ul
+  {
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav ul li
+  {
+    list-style: none;
+  }
+  
+  nav ul li a
+{
+	
+	text-transform: none;
+	font-weight: bold;
+	padding: 33px 20px;
+	text-decoration: none;
+}
+  
+nav ul li a:hover
+{
+	background: black;
+	color: white;
+}
+
+nav ul li ul
+{
+display: block;	
+background: black;
+min-width: 250px;
+position: absolute;
+margin-top: 1px;
+box-shadow: 1px solid rgba(0,0,0,.5);
+opacity: 0;
+visibility: visible;
+transition: .5s;
+transform: translateY(40px);
+}
+nav ul li:hover ul
+{
+opacity: 1;
+visibility: visible;
+transform: translateY(0px);
+}
+nav ul li ul li a
+{
+	padding: 10px;
+}
+
+
+
+
+.i{
+  float: right;
+   padding-right: 200px;
+   color: white;
+   margin: auto;
+}
+
+ .btn{
+   margin: 0;
+padding-right: 70px;
+ }
+
+
+
+
+
+
+
+.cont{
+    padding-top: 30px;
+    width: 1100px;
+    height: 40%;
+    line-height: 100px;
+    margin-left: 350px;
+ 
+}
+
+.carousel-item{
+  height: 100%;
+  width: 100%;
+}
+
+h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.paragraph{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.cards{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+h4{
+    color: white;
+}
+
+
+.cads{
+    background-color:rgb(233, 200, 140);
+    height: 900px;
+ }
+
+.cads2{
+
+    background-color:white;
+    height: 600px;
+}
+.cads3{
+    background-color:rgb(233, 200, 140);
+    height: 500px;
+}
+
+.cads4{
+  background-color:white;
+  height: 400px;
+}
+
+ .cards{
+     padding: 30px;
+     background-color: ;
+ }
+
+ .parg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+.last1{
+    padding-left: 90px;
+}
+ 
+ 
+ .pic1 {
+   padding: 5px;
+   margin: 8px -16px;
+ }
+
+ .pic2{
+    width: 20px;
+ }
+ .pic3{
+    width: 20px;
+ }
+ .pic4{
+    width: 20px;
+ }
+ .c{
+   
+        background-color: white;
+        padding: 10px;
+        text-align: none;
+        
+ }
+
+ .pic{
+   
+        float: left;
+        width: 23%;
+      }
+      
+      
+   
+
+
+
+
+
+
+
+    .img{
+      width: 100%;
+    
+    }
+
+      .cards {
+        display: flex;
+        justify-content: space-between;
+     }
+     .cards {
+   display: flex;
+   flex-wrap: wrap;
+      justify-content: space-between;
+   }
+
+   .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+ }
+  
+  
+ 
+ .card {
+  flex: 0 1 calc(25% - 1em);
+}
+
+
+.h3{
+  color: red;
+  display: flex;
+  float: left;
+}
+.p{
+ margin: auto;
+  float: left;
+  margin-right: 30%;
+
+}
+hr{
+margin right: 50%;
+float: left;
+ 
+  
+}
+
+
+.about{
+
+  background-color:white;
+  height: 600px;
+}
+
+
+
+footer {
+  background-color: green;
+ 
+  line-height: 1.5;
+}
+footer a {
+  text-decoration: none;
+  color: black;
+}
+
+
+.ft-title {
+  color: #fff;
+  font-family: "Merriweather", serif;
+  font-size: 1.375rem;
+  padding-bottom: 0.625rem;
+}
+
+
+
+.mmmmm{
+  position: relative;
+  left: 30;
+  bottom: 1px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  height: 70px;
+  margin-top: 90px;
+}
+
+
+
+
+.container {
+  max-width: 2000px;
+  margin: center;
+  background-color: green;
+  height: 500x;
+  
+}
+
+.container {
+  margin: 5px -16px;
+}
+
+.ft-main {
+  padding: 1.25rem 1.875rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+@media only screen and (min-width: 29.8125rem ) {
+  .ft-main {
+    justify-content: space-evenly;
+  }
+}
+ (min-width: 77.5rem  {
+  .ft-main {
+    justify-content: space-evenly;
+  }
+}
+.ft-main-item {
+  padding: 1.25rem;
+  min-width: 12.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.G1 {
+  margin: 8px -16px;
+}
+
+
+.G1,
+.G1 > .column {
+  padding: 8px;
+}
+
+.G1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.content1 {
+  background-color: whitesmoke;
+  padding: 10px;
+  text-align: none;
+  
+
+.G2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
